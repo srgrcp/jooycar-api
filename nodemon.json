@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "ignore": ["*.test.ts", "**/fixtures/**", "dist/"],
+  "watch": ["src/"],
+  "ext": "ts",
+  "exec": "dotenvx run -- ts-node src/index.ts",
+  "pollingInterval": 100
+}
